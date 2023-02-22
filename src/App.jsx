@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import {Container} from "./components/Container/Container";
 import {Header} from "./components/Header/Header";
 import {Navigation} from "./components/Navigation/Navigation";
+import {Catalog} from "./components/Catalog/Catalog";
 
 
 export const App = () => {
@@ -14,7 +15,7 @@ export const App = () => {
               <nav>
                   <Navigation/>
               </nav>
-              <section></section>
+              <Catalog/>
           </main>
           <footer></footer>
       </>
