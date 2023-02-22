@@ -2,6 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import {Container} from "./components/Container/Container";
 import {Header} from "./components/Header/Header";
+import {Navigation} from "./components/Navigation/Navigation";
 
 
 export const App = () => {
@@ -11,7 +12,7 @@ export const App = () => {
           <Header/>
           <main>
               <nav>
-                  <Container maks='leskin' className="navigation__container"/>
+                  <Navigation/>
               </nav>
               <section></section>
           </main>
