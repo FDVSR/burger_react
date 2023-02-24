@@ -26,3 +26,5 @@ export default App
 
 
 //npm run dev
+
+//in catalog.module costil'

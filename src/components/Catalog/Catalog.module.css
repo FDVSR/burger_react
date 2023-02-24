@@ -2,51 +2,51 @@
   margin-bottom: 80px;
 }
 
-.catalog__order {
+.order {
   min-height: 48px;
   margin-bottom: 30px;
 }
 
-.catalog__title {
+.title {
   font-weight: 600;
   font-size: 28px;
   line-height: 120%;
   margin-bottom: 16px;
 }
 
-.catalog__list {
+.list {
   display: grid;
   grid-template-columns: repeat(auto-fit, 145px);
   gap: 10px;
 }
 
 
-@media (min-width: 1024px) {
+@media (min-width: 1058px) {
   .catalog {
     margin-bottom: 100px;
   }
   
-  .catalog__container {
+  .container {
     display: flex;
     gap: 30px;
   }
 
-  .catalog__order {
+  .order {
     padding-top: 72px;
   }
 
-  .catalog__wrapper {
+  .wrapper {
     flex-grow: 1;
   }
 
-  .catalog__title {
-    font-weight: 600;
+  .title {
+    font-weight: 500;
     margin-bottom: 24px;
   }
 
-  .catalog__list {
-    width: calc(var(--container) - 330px);
-    grid-template-columns: repeat(auto-fit, 300px);
+  .list {
+    width: calc(var(--container));
+    grid-template-columns: repeat(auto-fit, 320px);
     gap: 30px;
   }
 }
