@@ -1,7 +1,7 @@
 import {Count} from "../Count/Count";
 import style from "./OrderGoods.module.css"
 
-export const OrderGoods = () => (
+export const OrderGoods = (item) => (
     <li className={style.item}>
         <img className={style.image} src="../../assets/img/burger_1.jpg" alt="Супер сырный"/>
 
