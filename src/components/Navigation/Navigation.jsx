@@ -2,12 +2,17 @@ import style from "./Navigation.module.css";
 import {Container} from "../Container/Container";
 import classNames from "classnames"
 import {useDispatch, useSelector} from "react-redux";
-import {changeCategory} from "../../store/category/categorySlice.js";
+import {categoryRequestAsync, changeCategory} from "../../store/category/categorySlice.js";
+import {useEffect} from "react";
 
 
 export const Navigation = () => {
     const { category, activeCategory } = useSelector((state) => state.category)
     const dispatch = useDispatch()
+
+    useEffect(() => {
+        dispatch(categoryRequestAsync('max'));
+    }, [])
 
     return(
         <nav className={style.navigation}>
