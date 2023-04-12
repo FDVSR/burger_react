@@ -25,7 +25,7 @@
 }
 
 
-@media (min-width: 1024px) {
+@media (min-width: 1300px) { \\1024
     .count {
         width: 84px;
         height: 40px;

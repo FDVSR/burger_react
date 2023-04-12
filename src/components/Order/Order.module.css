@@ -67,7 +67,6 @@
 
 .list {
   margin-bottom: 16px;
-  margin-bottom: 16px;
 }
 
 
@@ -137,14 +136,14 @@
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1300px) {
   .order {
     width: 500px;
   }
 
   .wrapper {
     position: unset;
-    padding: 12px 16px;
+    padding: 30px 40px;
   }
 
   .header {

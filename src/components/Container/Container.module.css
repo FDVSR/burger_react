@@ -1,5 +1,5 @@
 .container {
-    --container: 300px;
+    --container: 200px;
     --padding-container: 10px;
 
     max-width: calc(var(--container) + var(--padding-container) * 2);
@@ -19,15 +19,17 @@
     }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1050px) {
     .container {
-        --container: 960px;
+        --container: 1000px;
         --padding-container: 32px
     }
 }
 
-@media (min-width: 1360px) {
+@media (min-width: 1450px) {
     .container {
-        --container: 1290px;
+        --container: 1360px;
+        --padding-container: 0px
     }
 }
+

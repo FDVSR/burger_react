@@ -1,9 +1,11 @@
 .item {
-    display: flex;
+    /*display: flex;*/
     align-items: center;
     gap: 6px;
     padding: 10px 0;
     border-bottom: 1px solid #F2F2F3;
+    display: grid;
+    grid-template-columns: 60px auto 75px;
 }
 
 .item:first-child {

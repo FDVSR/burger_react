@@ -13,6 +13,9 @@
     overflow-x: auto;
     overflow-y: hidden;
     column-gap: 8px;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 10px;
 }
 
 .button {
